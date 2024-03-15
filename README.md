@@ -1,6 +1,4 @@
 
-- O script obtém proxies confiáveis ​​de diferentes provedores e os rotaciona automaticamente para evitar rastreamento
-
 # Clone o repositório:
 
       git clone https://github.com/seu-repositorio/script-download-proxy.git
