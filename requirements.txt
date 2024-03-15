@@ -1,0 +1,6 @@
+aiohttp
+async_timeout
+proxylists
+rotating_proxies
+requests 
+tkinter
