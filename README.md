@@ -1,37 +1,33 @@
 
-# Clone o repositório:
+# Clone the repository:
 
-      git clone https://github.com/seu-repositorio/script-download-proxy.git
+      git clone https://github.com/mrfelpa/script-download-proxy.git
       
-# Acesse o diretório do script:
+# Access the script directory:
+
       cd script-download-proxy
 
-# Instale as bibliotecas necessárias:
+# Install the required libraries:
 
       pip install -r requirements.txt
 
 
-- Preencha as variáveis no início do script com as suas informações:
+- Fill in the variables at the beginning of the script with your information:
   
-- ***url:*** URL do arquivo para download.
-- ***delay:*** Tempo de espera entre as solicitações (em segundos).
-- ***max_retries:*** Número máximo de tentativas de download.
-- ***proxy_providers:*** Lista de provedores de proxy que você considera seguro e confiável.
+- ***url:*** URL of the file for download.
+- ***delay:*** Waiting time between requests (in seconds).
+- ***max_retries:*** Maximum number of download attempts.
+- ***proxy_providers:*** List of proxy providers that you consider safe and reliable.
 
-# Execute o script:
+# Run the script:
 
     python download.py
 
-# Erros que podem ocorrer:
+# Disclaimer
 
-ModuleNotFoundError: A biblioteca necessária não está instalada. Verifique se as bibliotecas estão instaladas corretamente.
-
-ProxyError: Erro ao conectar-se ao proxy. Verifique se os proxies estão funcionando.
-
-TimeoutError: A solicitação expirou. Aumente o tempo de espera entre as solicitações.
+- The author of this code is not responsible for the misuse of this script
 
 # Implementações futuras:
 
-- [ ] Detecção e bloqueio de proxies CAPTCHA.
-- [ ] Integração com serviços de nuvem para armazenamento de arquivos.
-- [ ] Suporte para download de vários arquivos simultaneamente.
+- [X] Detection and blocking of CAPTCHA proxies.
+- [ ] Integration with cloud services for file storage.
